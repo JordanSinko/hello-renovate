@@ -7,7 +7,7 @@
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
-      "automerge": false
+      "automerge": true
     },
     {
       "updateTypes": ["patch", "minor"],
