@@ -1,0 +1,13 @@
+{
+  "name": "hello-renovate",
+  "version": "1.0.0",
+  "scripts": {
+    "synth": "cdk synth"
+  },
+  "devDependencies": {
+    "@aws-cdk/aws-lambda": "^1.109.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.109.0",
+    "@aws-cdk/core": "^1.109.0",
+    "aws-cdk": "^1.109.0"
+  }
+}
