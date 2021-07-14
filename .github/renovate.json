@@ -10,7 +10,7 @@
       "automerge": false
     },
     {
-      "updateTypes": ["patch", "minor"],
+      "depTypeList": ["dependencies"],
       "automerge": false
     }
   ]
