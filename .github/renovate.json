@@ -4,14 +4,5 @@
   "lockFileMaintenance": { "enabled": true },
   "rangeStrategy": "bump",
   "requiredStatusChecks": null,
-  "packageRules": [
-    {
-      "depTypeList": ["devDependencies"],
-      "automerge": true
-    },
-    {
-      "depTypeList": ["dependencies"],
-      "automerge": false
-    }
-  ]
+  "automerge": true
 }
