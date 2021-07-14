@@ -1,6 +1,17 @@
 {
-  "extends": ["config:base", ":preserveSemverRanges"],
+  "extends": ["config:base", ":preserveSemverRanges", ":disableMajorUpdates"],
   "dependencyDashboard": true,
   "lockFileMaintenance": { "enabled": true },
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "requiredStatusChecks": null,
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies"],
+      "automerge": false
+    },
+    {
+      "updateTypes": ["patch", "minor"],
+      "automerge": false
+    }
+  ]
 }
