@@ -6,6 +6,10 @@
   "requiredStatusChecks": null,
   "packageRules": [
     {
+      "matchPackageNames": ["lodash.sample"],
+      "enabled": false
+    },
+    {
       "depTypeList": ["devDependencies"],
       "automerge": false
     },
