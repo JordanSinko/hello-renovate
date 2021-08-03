@@ -7,7 +7,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["lodash.sample"],
-      "enabled": false
+      "enabled": true
     },
     {
       "depTypeList": ["devDependencies"],
