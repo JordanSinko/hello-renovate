@@ -12,6 +12,6 @@
     "@aws-cdk/aws-lambda-nodejs": "^1.128.0",
     "@aws-cdk/core": "^1.128.0",
     "aws-cdk": "^1.128.0",
-    "jest": "^27.3.0"
+    "jest": "^27.3.1"
   }
 }
