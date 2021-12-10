@@ -8,10 +8,10 @@
     "synth": "cdk synth"
   },
   "devDependencies": {
-    "@aws-cdk/aws-lambda": "^1.134.0",
-    "@aws-cdk/aws-lambda-nodejs": "^1.134.0",
+    "@aws-cdk/aws-lambda": "^1.135.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.135.0",
     "@aws-cdk/core": "^1.135.0",
-    "aws-cdk": "^1.134.0",
+    "aws-cdk": "^1.135.0",
     "jest": "^27.4.4"
   }
 }
